@@ -69,7 +69,7 @@ new_df = st.data_editor(
         "Issue Category",
         help = "select the category",
         options = ['Accuracy', 'Relevance', 'Coherence', 'Bias', 'Completeness'],
-        required = False
+        required = True
         )
     }
 )
